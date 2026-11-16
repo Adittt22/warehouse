@@ -1,7 +1,3 @@
-<?php
-include "koneksi.php";
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +5,18 @@ include "koneksi.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1>DASHBOARD</h1>
+    <?php include "header.php"; ?>
+    <div class="container">
+        <?php include "sidebar.php"; ?>
+
+        <div class="dashboard"> haloo dashbaord</div>
+
+    </div>
+
 </body>
 
 </html>
