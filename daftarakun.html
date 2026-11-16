@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="login-container">
+      <div class="login-intro">
+        <div class="login-intro-content">
+          <h1>Stok di rak sama dengan stok di layar.</h1>
+          <p>
+            Catat barang masuk dan keluar sekali, saldo terhitung sendiri. Kamu
+            diberi tahu sebelum barang habis.
+          </p>
+        </div>
+      </div>
+
+      <div class="login-form">
+        <!-- Form login -->
+        <h1>Daftar ke StokKu</h1>
+
+        <form action="insertuser.php" method="POST">
+          <p>Email</p>
+          <input
+            class="input-bar"
+            name="username"
+            placeholder="username"
+            required
+          />
+          <p>Password</p>
+          <input class="input-bar" type="password" name="password" required />
+          <button type="submit" name="submituser">Masuk</button>
+        </form>
+        <div class="register-link">
+          <b>Sudah Punya Akun?</b>
+          <a href="index.html">Masuk Disini</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
